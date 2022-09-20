@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    text-shadow: 20px 20px 2px black;
+}
+#p {
+   font-size: 40px;
+   font-style: italic;
+   font-weight: bold;
+}
+.teste {
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 5px black;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #a19d9db2;
+}

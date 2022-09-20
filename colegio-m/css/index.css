@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, nav {
+    list-style: none;
+}
+
+.nav-bar {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.link-logo {
+    border: 1px solid black;
+}
+
+.nav {
+    border: 1px solid black;
+}
+
+.nav ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    margin-right: 15px;
+}
+
+.nav ul li:last-child {
+    margin-right: 0;
+}

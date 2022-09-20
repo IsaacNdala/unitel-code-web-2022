@@ -56,7 +56,55 @@
 
     <video width="500px" height="500px" controls>
         <source src="movie.mp4" type="video/mp4">
-        Navegador nao suporta video
+        Navegador não suporta video
     </video>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form action="link.html" method="post">
+        <!-- input do tipo texto -->
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" required disabled id="nome" placeholder="Digite o seu nome" />
+        <br>
+
+        <!-- Input do tipo numero -->
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade">
+
+        <!-- Input do tipo password -->
+        <label for="senha">Digite a sua senha</label>
+        <input type="password" name="senha" id="senha">
+
+        <br>
+        <br>
+        <br>
+
+        <label for="arquivo">Selecione o seu arquivo</label>
+        <input type="file" name="arquivo" id="arquivo">
+
+
+
+        <br>
+        <br>
+
+        <label for="comida">Comida</label>
+        <select name="comida" id="comida">
+            <option value="funge">Funge</option>
+            <option value="arroz">Arroz</option>
+            <option value="frango">Frango</option>
+        </select>
+
+        <input type="checkbox" name="comi" id="comi" value="comi"> 
+        <label for="comi">Concorda que comeu?</label>
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
