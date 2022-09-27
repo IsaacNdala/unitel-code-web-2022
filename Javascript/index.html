@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Javascript</h1>
+    <div id="demo"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sint aliquam blanditiis? 0</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sint aliquam blanditiis? 1</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sint aliquam blanditiis? 2</p>
+
+    <script>
+        // var nome = 'Isaac';
+        // let idade = 12;
+        // const PI = 'Isaac';
+        // let present = false;
+
+        // let n1 = 2;
+        // let n2 = 5;
+        // let soma = n1 + n2;
+        // let subtracao = n2 - n1;
+        // let divisao = n2 / n1;
+        // let multiplicacao = n2 * n1;
+        // let restoDaDivisao = n2 % n1;
+
+        // let primeiroNome = 'Isaac';
+        // let segundoNome = 'Ndala';
+        // let idade = 12;
+        // let cidade = 'Luanda';
+
+        // console.log("Eu sou " + primeiroNome + " " + segundoNome + " tenho " + idade + " anos moro em " + cidade);
+
+        // let numero = 0;
+        // let cidade = 'Benguela'
+        // if(cidade !== "Benguela") {
+        //     console.log('Diferente de Benguela');
+        // } else {
+        //     console.log('E Benguela');
+        // }
+
+        // Verificar se o resultado e par ou impar
+        // let n1 = 3878;
+        // let n2 = 2;
+
+        // let soma = n1 + n2;
+
+        // if(soma % 2 === 0) {
+        //     console.log('Soma: ' + soma)
+        //     console.log('Par')
+        // } else {
+        //     console.log('Soma: ' + soma)
+        //     console.log('Impar')
+        // }
+
+        //Verificar se alguem pode votar
+        // let nome = "Bernado";
+        // let idade = "18";
+        
+        // if(idade >= 18) {
+        //     console.log("Idade: " + idade)
+        //     console.log("Pode votar")
+        // } else if(idade >=25) {
+        //     console.log("Idade: " + idade)
+        //     console.log("Menor de idade")
+        // } else {
+        //     console.log('nao cumpre')
+        // }
+
+        // DOM
+        // let div = document.getElementById('demo');
+        // let p = document.getElementsByTagName('p')[2];
+
+        // let body = document.body
+
+        // body.style.backgroundColor = "green"
+
+        // p.style.color = "blue";
+
+        // div.innerHTML = "Baba";
+
+        function soma(n1, n2) {
+            let soma = n1 + n2;
+            return soma;
+        }
+
+
+        function dizOla() {
+            alert('Ola')
+        }
+
+
+        function cumprimenta(n1, n2) {
+            alert(soma(23, 34));
+            dizOla();
+        }
+
+        function mostraMensagem() {
+            alert('Clicaste h1');
+            document.getElementById('demo').innerHTML = "Text da div";
+            document.getElementById('demo').style.color = "red";
+        }
+
+        document.getElementsByTagName('h1')[0].onclick = document.getElementById('demo').style.color = "red";
+    </script>
+    <!-- Importando Arquivo externo -->
+    <script src="index.js"></script>
+</body>
+</html>
